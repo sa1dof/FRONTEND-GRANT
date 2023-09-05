@@ -1,24 +1,17 @@
-div{
- display: flex;
- justify-content: center;
- gap: 30px;
- margin-top: 10px;
+.btn1{
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  background: red;
+  color: black;
+  font-weight: 600;
 }
 
-.div_1{
-  font-size: 30px;
-  font-family:sans-serif;
-  font-weight: 700;
-  color: rgb(174, 189, 202);
-  border-radius: 30px;
-  width: 400px;
-  justify-content: center;
-  height: 400px;
-  background-color: #0f066c;
-  align-items: center;   
+.btn1:hover{
+  background: black;
+  color: aliceblue;
 }
 
-
-
-
-
+.active:active{
+   color: red;
+}
